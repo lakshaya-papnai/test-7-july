@@ -1,0 +1,44 @@
+/* styles.css */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: lightcyan;
+
+    background-image: url('school-leadership-democracy-blog.png');
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 100vh; /* Makes sure the body takes the full height of the viewport */
+    margin: 0; /* Removes default margin */
+    color:antiquewhite; /* Changes text color to white for better contrast */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+h1 {
+
+    
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+a{
+    text-decoration: none;
+    color: azure;
+}
